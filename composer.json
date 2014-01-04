@@ -1,0 +1,25 @@
+{
+    "name": "drealecs/http-persistent-client",
+	"type": "library",
+	"description": "Http client library with automate cookies persistence",
+	"keywords": ["http client", "cookies"],
+    "license": "MIT",
+	"authors": [
+        {
+            "name": "Alexandru Patranescu",
+            "email": "drealecs@gmail.com"
+        }
+	],
+    "require": {
+        "php": ">=5.3.0",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "HttpPersistent": ""
+        }
+    },
+    "config": {
+        "use-include-path": true
+    }
+}
